@@ -83,4 +83,17 @@
 		</plugins>
 	</build>
 
+	<distributionManagement>
+		<repository>
+			<id>central</id>
+			<name>Releases</name>
+			<url>https://github.com/DouglasTrigo/helloworld/releases</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<name>Snapshots</name>
+			<url>https://github.com/DouglasTrigo/helloworld/snapshots</url>
+		</snapshotRepository>
+	</distributionManagement>
+
 </project>
